@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoregistro"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Registro">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nro de registro (ejem. 1, 2, 3, etc.)"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/editId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:hint="Escribe tu numero de registro.... ...."
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/editNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:hint="Escribe tu nombre...."
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Apellido" />
+
+    <EditText
+        android:id="@+id/editApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:hint="Escribe tu apellido...." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Edad" />
+
+    <EditText
+        android:id="@+id/editEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe tu edad...."
+        android:textColorHint="#FFFFFF"
+        android:numeric="integer" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+
+        android:text="Altura (cm)" />
+
+    <EditText
+        android:id="@+id/editAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:hint="Escribe tu altura en cm (ejem. 173)...."
+        android:numeric="integer" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Peso (kg)" />
+
+    <EditText
+        android:id="@+id/editPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:hint="Escribe tu peso en kg (ejem. 75)...."
+        android:numeric="integer" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Año" />
+
+    <EditText
+        android:id="@+id/editAnio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:hint="Escribe el año (ejem. 2021)...."
+        android:numeric="integer" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Mes" />
+
+    <EditText
+        android:id="@+id/editMes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:hint="Escribe el mes (ejem. 5)...."
+        android:numeric="integer" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Día" />
+
+    <EditText
+        android:id="@+id/editDia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:hint="Escribe el día (ejem. 15)...."
+        android:numeric="integer" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/enviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A3C2F1"
+        android:onClick="onClick"
+        android:text="Enviar" />
+
+    <Button
+        android:id="@+id/cancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A3C2F1"
+        android:text="Volver al menú" />
+
+</LinearLayout>
